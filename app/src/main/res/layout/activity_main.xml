@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/treeandfire"
+    tools:context=".MainActivity">
+
+
+    <com.jetradarmobile.snowfall.SnowfallView
+        android:id="@+id/snowfallView"
+        android:layout_width="70dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="540dp"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694"
+        app:snowflakeImage="@drawable/snowflake"
+        app:snowflakesNum="40" />
+
+
+    <Button
+        android:id="@+id/treelights"
+        android:layout_width="100dp"
+        android:layout_height="223dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="376dp"
+        android:layout_marginBottom="32dp"
+        android:background="@android:color/transparent"
+        android:onClick="blinktree"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <Button
+        android:id="@+id/presentbutton"
+        android:layout_width="213dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="112dp"
+        android:background="@android:color/transparent"
+        android:onClick="showpresent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fireplace"
+        android:layout_width="122dp"
+        android:layout_height="99dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="72dp"
+        android:background="@android:color/transparent"
+        android:onClick="fire"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+    <ImageView
+        android:id="@+id/present1"
+        android:layout_width="46dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="76dp"
+        android:rotation="-20"
+        android:src="@drawable/present"
+        app:layout_constraintStart_toEndOf="@+id/snowfallView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/present2"
+        android:layout_width="46dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="70dp"
+        android:rotation="-20"
+        android:src="@drawable/redpresent"
+        app:layout_constraintStart_toEndOf="@+id/snowfallView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/present3"
+        android:layout_width="46dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="184dp"
+        android:rotation="-15"
+        android:src="@drawable/present"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/present4"
+        android:layout_width="46dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="141dp"
+        android:rotation="-13"
+        android:src="@drawable/redpresent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star6"
+        android:layout_width="63dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="212dp"
+        android:src="@drawable/light"
+        app:layout_constraintStart_toEndOf="@+id/snowfallView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageView
+        android:id="@+id/star5"
+        android:layout_width="63dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="232dp"
+        android:src="@drawable/light"
+        app:layout_constraintStart_toEndOf="@+id/snowfallView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star4"
+        android:layout_width="63dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="148dp"
+        android:src="@drawable/light"
+        app:layout_constraintStart_toEndOf="@+id/snowfallView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star3"
+        android:layout_width="63dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="168dp"
+        android:src="@drawable/light"
+        app:layout_constraintStart_toEndOf="@+id/snowfallView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="63dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="116dp"
+        android:src="@drawable/light"
+        app:layout_constraintStart_toEndOf="@+id/snowfallView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="158dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/light"
+        app:layout_constraintStart_toEndOf="@+id/snowfallView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="63dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="92dp"
+        android:src="@drawable/light"
+        app:layout_constraintStart_toEndOf="@+id/snowfallView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/dimback"
+        android:layout_width="117dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/dimback" />
+
+    <ImageView
+        android:id="@+id/dimfire"
+        android:layout_width="104dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="75dp"
+        android:rotation="6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/dimfire" />
+
+
+</android.support.constraint.ConstraintLayout>
